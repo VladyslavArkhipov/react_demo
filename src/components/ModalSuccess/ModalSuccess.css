@@ -1,0 +1,42 @@
+/* Ваш CSS-файл (например, styles.css) */
+
+.success {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #4caf50; /* Цвет фона - зеленый */
+    color: #fff; /* Цвет текста - белый */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 300px; /* Максимальная ширина блока */
+    text-align: center;
+  }
+  
+  .success_text {
+    margin-bottom: 15px;
+    font-size: 18px;
+  }
+  
+  .success_button {
+    background-color: #fff; /* Цвет фона кнопки - белый */
+    color: #4caf50; /* Цвет текста кнопки - зеленый */
+    border: 2px solid #4caf50; /* Цвет границы кнопки - зеленый */
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  }
+  
+  .success_button:hover {
+    background-color: #4caf50; /* Изменение цвета фона при наведении */
+    color: #fff; /* Изменение цвета текста при наведении */
+    border-color: #fff; /* Изменение цвета границы при наведении */
+  }
+  

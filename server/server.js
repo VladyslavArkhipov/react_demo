@@ -49,6 +49,10 @@ app.post("/send-email", async (req, res) => {
   }
 });
 
+app.get("/test", (req, res) => {
+  res.send("GET request received successfully");
+});
+
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });

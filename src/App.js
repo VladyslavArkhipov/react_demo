@@ -10,7 +10,7 @@ function App() {
 
     const email = formData.get("text");
 
-    fetch("http://localhost:3001/send-email", {
+    fetch("http://https://react-demo-eight-jet.vercel.app/send-email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

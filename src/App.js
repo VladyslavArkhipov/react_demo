@@ -2,6 +2,7 @@ import "./App.css";
 import { useState } from "react";
 import Form from "./components/Form/Form";
 import { ModalSuccess } from "./components/ModalSuccess/ModalSuccess";
+import { InstagramWidget } from "./components/common/InstagramWidget";
 
 function App() {
   const [isFormSubmitted, setIsFormSubmitted] = useState(false);
@@ -17,6 +18,7 @@ function App() {
       ) : (
         <Form setIsFormSubmitted={setIsFormSubmitted} />
       )}
+      <InstagramWidget />
     </div>
   );
 }
